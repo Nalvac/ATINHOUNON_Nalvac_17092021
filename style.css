@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: "Raleway";
+    src: url('/Raleway/static/Raleway-ThinItalic.ttf') format('ttf');
+}
+body{
+    font-family: "Raleway" , serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    height: 50px;
+    width: auto;
+    flex: 4;
+}
+.menu1{
+    flex: 1;
+    
+}
+.menu2{
+    flex: 1;
+}
+.menu3{
+    flex: 1;
+}
+.s_inscrire{
+   color :blue; 
+
+}
+
+a{
+    text-decoration: none;   
+    color: black;   
+}
+a:hover {
+    border-top: 1px #0065FC solid;
+    color:  #0065FC;
+    
+}
+a:active {
+    border-top: 2px #0065FC solid;
+    color:  #0065FC;
+    bo
+    
+}
