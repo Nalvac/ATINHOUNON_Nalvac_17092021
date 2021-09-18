@@ -1,52 +1,75 @@
 
-@font-face {
-    font-family: "Raleway";
-    src: url('/Raleway/static/Raleway-ThinItalic.ttf') format('ttf');
-}
 body{
     font-family: "Raleway" , serif;
+    margin: 0px 8px;
 }
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-    text-align: center;
+    height: 101px;
 }
-.logo{
+.centrer{
     display: flex;
-    height: 50px;
-    width: auto;
-    flex: 4;
+    justify-content: center; 
+    align-items: center; 
 }
-.menu1{
-    flex: 1;
-    
+.menu{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    width: 45%;
 }
-.menu2{
-    flex: 1;
+.menuSize{
+    height: 99px;
+    width: 140px;
+  
 }
-.menu3{
-    flex: 1;
+.liens2{
+    color: black;
 }
-.s_inscrire{
-   color :blue; 
-
+.liens1 {
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
 }
-
 a{
-    text-decoration: none;   
-    color: black;   
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
 }
-a:hover {
-    border-top: 1px #0065FC solid;
-    color:  #0065FC;
-    
+.bordure:hover{
+    border-top: 2px solid #0065FC ;
+    cursor: pointer;
 }
-a:active {
-    border-top: 2px #0065FC solid;
-    color:  #0065FC;
-    bo
+
+.bordure:hover > a{
+    color: #0065FC;
+}
+.search{
+    width: 300px;
+    height: 50px;
+}
+.flex-search{
+    display: flex;
+
+}
+.icon-map{    
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+}
+.button-search{
+    color: #ffffff;
+    background-color: #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    width: 100px;
     
+    height: 50px;
+}
+input{
+    text-align: center;
+    border: 1px #F2F2F2 solid;
 }
