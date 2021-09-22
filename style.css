@@ -218,11 +218,6 @@ h4{
     
 }
 
-.Hebergement-Marseil{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 .titre{
     display: flex;
     justify-content: center;
@@ -246,7 +241,7 @@ h4{
 .Hebergement-populair-elmts{
     border-radius: 20px;
     width: 330px;
-    height: 150px;    
+    height: 170px;    
     background-color: #ffffff;
     border : 5px white solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -267,5 +262,25 @@ h4{
 }
 i{
     color: #0065FC;
+}
+.activite_elmentLarge{
+    background-color: #F2F2F2;
+    overflow: hidden;
+     display: flex; 
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.activite_elmentSmall{
+    background-color: #F2F2F2;
+    display: flex; 
+    height: 48%;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+.flex50{
+    display: flex;width: 50%; 
+    max-height: 500px; 
+    justify-content: space-around;
 }
 
