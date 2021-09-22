@@ -264,19 +264,27 @@ i{
     color: #0065FC;
 }
 .activite_elmentLarge{
-    background-color: #F2F2F2;
-    overflow: hidden;
-     display: flex; 
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-between;
+     width: 48%; 
+    background-color: #f2f2f2;
+     overflow: hidden; 
+      border-radius: 20px
 }
 .activite_elmentSmall{
-    background-color: #F2F2F2;
-    display: flex; 
-    height: 48%;
+    width: 48%; overflow: hidden; 
+     display: flex; 
     flex-direction: column; 
-    justify-content: space-between;
+    justify-content: space-between; 
+    border-radius: 20px
+}
+.activite_elmentSmall_1{
+    height: 400px; 
+    background-color: #f2f2f2;
+     margin-bottom: 5%; border-radius: 20px
+}
+.activite_elmentSmall_2{
+    height: 400px; 
+    background-color: #f2f2f2;
+    border-radius: 20px;
 }
 .flex50{
     display: flex;width: 50%; 
@@ -284,3 +292,13 @@ i{
     justify-content: space-around;
 }
 
+.sous-titre{
+    margin: 2%;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 2%;
+    width: 350px;
+}
