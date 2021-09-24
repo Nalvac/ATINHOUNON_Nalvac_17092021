@@ -18,7 +18,7 @@ body{
 }
 .menu{
 
-    width: 100%;
+    
 }
 .flexaround{
     display: flex;
@@ -184,13 +184,13 @@ input{
 .Hebergement-Marseil1{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+
    
 }
 .Hebergement-Marseil2{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    
     margin: 5% 0% 5% 0%;
    
 }
@@ -226,10 +226,8 @@ input{
 }
 .titre2{
     display: flex;
-    justify-content: center;
-    align-content: flex-end;
-    width: 60%;
-    height: 30px;
+    justify-content: flex-start;
+    padding: 2%;
 }
 .lesPlusCases{
     display: flex;
@@ -242,7 +240,7 @@ input{
 }
 .Hebergement-populair-elmts{
     border-radius: 20px;
-    width: 100%;
+ 
     height: 170px;    
     background-color: #ffffff;
     border : 5px white solid;
@@ -285,14 +283,14 @@ i{
     height: 400px; 
     background-color: #f2f2f2;
      margin-bottom: 5%; border-radius: 20px;
-    width: 100%;
+  
     
 }
 .activite_elmentSmall_2{
     height: 400px; 
     background-color: #f2f2f2;
     border-radius: 20px;
-    width: 100%;
+  
 }
 .flex50{
     display: flex;width: 50%; 
@@ -302,8 +300,9 @@ i{
 
 .sous-titre{
     margin: auto;
-    padding: 1em;
+    padding: 3%;
     margin-bottom: 5%;
+    display: flex;
 }
 ul{
     list-style: none;
@@ -312,17 +311,38 @@ ul{
 li{
     margin: 2%;
 }
-.star{
-    margin-left: 2%; margin-bottom: 3%;
-}
-.star2{
-    margin-left: 2%; margin-bottom: 3%; margin-top: 40%;
-}
-
 @media screen and (max-width: 1280px)
 {
     .Hebergement-Marseil-elmts {
         margin: 1%;
+        height: 274px;
+    }
+    .Hebergement-Marseil1{
+        height: 274px;
+    }
+    .Hebergement-Marseil2{
+        height: 274px;
+    }
+    .review{
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-end;
+    }
+    .titre2{
+     
+        height: 60px;
+        
+    }
+    .Hebergement-populair-elmts {
+        
+        height: 153px;
+    }
+}
+/*
+@media screen and (max-width: 1280px)
+{
+    .Hebergement-Marseil-elmts {
+        margin: 1% 0% 1% 0%;
     }
     .star2{
         
@@ -332,7 +352,7 @@ li{
 @media screen and (max-width: 1022px)
 {   
     .Hebergement-Marseil-elmts {
-        margin: 5%;
+        margin: 1%
     }
     .star2{
         margin-top: 30%;
@@ -342,3 +362,22 @@ li{
     }
 
 }
+@media screen and (max-width: 1007px)
+{   
+    .Hebergement-Marseil-elmts {
+        margin: 1% 0% 1% 0%;
+    }
+    
+
+}
+@media screen and (max-width: 995px)
+{   
+    .Hebergement-Marseil-elmts {
+        margin: 1%;
+    }
+    .star2{
+        margin-top: 30%;
+    }
+    
+
+}*/
