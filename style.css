@@ -157,8 +157,7 @@ input{
 }
 .section-Info{
     display: flex;
-    justify-content: space-between;
-    width: 36%;
+    
     height: 50px;
 }
 .icon-info{
