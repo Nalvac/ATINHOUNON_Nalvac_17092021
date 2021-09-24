@@ -269,7 +269,7 @@ i{
     background-color: #f2f2f2;
     overflow: hidden; 
     border-radius: 20px;
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 .activite_elmentSmall{
@@ -278,12 +278,14 @@ i{
     flex-direction: column; 
     justify-content: space-between; 
     border-radius: 20px
+    
 }
 .activite_elmentSmall_1{
     height: 400px; 
     background-color: #f2f2f2;
      margin-bottom: 5%; border-radius: 20px;
     width: 100%;
+    
 }
 .activite_elmentSmall_2{
     height: 400px; 
@@ -298,7 +300,8 @@ i{
 }
 
 .sous-titre{
-    margin: 2%;
+    margin: auto;
+    padding: 1em;
 }
 ul{
     list-style: none;
