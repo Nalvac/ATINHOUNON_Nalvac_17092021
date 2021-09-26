@@ -228,7 +228,6 @@ input{
     flex-direction: column;
     justify-content: space-between;
     height: 83%;
-    width: 90%;
     margin: auto;
 }
 .Hebergement-populair-elmts{
@@ -337,13 +336,16 @@ li{
         padding: 2%;
         margin-bottom: 19%;
     }
+    .lesPlusCases {
+        width: 90%;
+    }
 
 }
 
 @media screen and (max-width : 1090px) {
     .lesPlusCases {
-      
-        width: 90% !important;
+
+        width: 70%;
     }
     .les-plus-populairesDescription {
         width: 53% !important;
@@ -370,12 +372,7 @@ li{
     .les-plus-populaires{
         width: 100%;
     }
-    .lesPlusCases{
-        height: 612px;
-         width: 541px;
-         
-         display: block;
-    }
+
     .les-plus-populairesDescription {
         width: 86%;
     }
@@ -428,11 +425,12 @@ li{
     height: 137px;
 }
 
+
 }
 
 @media screen and (max-width: 1050px)
 {   
-  
+    
   
     .elmtsFlex {
         display: flex;
@@ -446,7 +444,7 @@ li{
 
     }
     .Hebergement-Marseil-elmts {
-        width: 400px;
+        width: 46%;
     }
 
     .les-plus-populaires {
@@ -469,7 +467,7 @@ li{
         
     }
     .Hebergement-Marseil-elmts {
-        width: 53%;
+        width: 75%;
     }
     .elmtsFlex {
         flex-direction: column;
@@ -477,15 +475,18 @@ li{
         /* width: 100%; */
         align-items: center;
     }
+    .lesPlusCases {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width : 450px) {
     
-    .imgLesPlusPopu{
-        width: 72%;
-    }
     .imageSize{
         width: 50%;
+    }
+    .lesPlusCases {
+        width: 90%;
     }
 }
 @media screen and (max-width : 750px) {
