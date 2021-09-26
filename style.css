@@ -333,7 +333,7 @@ li{
     }
 
     
-  
+
   
     .les-plus-populairesDescription {
         width: 86%;
@@ -380,7 +380,9 @@ li{
          
          display: block;
     }
-
+    .les-plus-populairesDescription {
+        width: 86%;
+    }
     .star2{
         margin: 5%;
     }
@@ -407,7 +409,6 @@ li{
     .Hebergement-Marseil-elmts {
         width: 382px;
     }
-
 
 
 }
