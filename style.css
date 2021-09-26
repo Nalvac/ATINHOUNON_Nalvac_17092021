@@ -189,7 +189,7 @@ input{
 .les-plus-populaires{
     border-radius: 20px;
     background-color: #F2F2F2;
-    width: 25%;
+    width: 26%;
     height: auto;
 
 }
@@ -202,7 +202,7 @@ input{
 .Hebergement-Marseil-elmts{
     border-radius: 20px;
     border : 5px white solid;
-    width: 295px;
+    width: 275px;
     margin-top: 10%;
     height: auto;
     background-color: #ffffff;
@@ -216,6 +216,7 @@ input{
     display: flex;
     justify-content: flex-start;
     padding: 1%;
+    
 }
 .titre2{
     display: flex;
@@ -233,7 +234,7 @@ input{
 .Hebergement-populair-elmts{
     border-radius: 20px;
  
-    height: 170px;    
+    height: 147px;    
     background-color: #ffffff;
     border : 5px white solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -304,10 +305,10 @@ li{
     margin: 2%;
 }
 .les-plus-populairesDescription{
-    width: 60%;
+    width: 66%;
 }
 .imageSize{
-    width: 50%;
+    width: 58%;
 }
 @media screen and (max-width: 920px)
 {
@@ -326,7 +327,14 @@ li{
     }
 
 }
-
+@media screen and (min-width : 1090px){
+    .titre2{
+        display: flex;
+        justify-content: flex-start;
+        padding: 2%;
+        margin-bottom: 19%;
+    }
+}
 
 @media screen and (max-width : 1090px) {
     .lesPlusCases {
@@ -375,7 +383,11 @@ li{
         width: 100%;
     }
 
-   
+    
+    .imageSize{
+        width: 45%;
+        max-width: 170px;
+    }
 
 
     
@@ -385,6 +397,7 @@ li{
     .Hebergement-Marseil-elmts {
         border-radius: 20px;
         border: 5px white solid;
+        width: 250px;
         
 }
 }
@@ -392,8 +405,13 @@ li{
     .Hebergement-Marseil-elmts {
         border-radius: 20px;
         border: 5px white solid;
-        width: 257px;
+        width: 230px;
 }
+.Hebergement-populair-elmts {
+    border-radius: 20px;
+    height: 137px;
+}
+
 }
 
 @media screen and (max-width: 1050px)
@@ -423,7 +441,7 @@ li{
  
     .imageSize{
         width: 45%;
-        max-width: 200px;
+        max-width: 170px;
     }
 
 
@@ -458,7 +476,7 @@ li{
     
     .imageSize{
         width: 45%;
-        max-width: 200px;
+        max-width: 170px;
     }
 }
 /*
