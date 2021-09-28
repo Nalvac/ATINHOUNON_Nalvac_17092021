@@ -76,7 +76,10 @@ a{
 }
 input{
     text-align: center;
-    border: 1px #F2F2F2 solid;
+    border: 0px #F2F2F2 solid;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
 }
 .filtre{
     display: flex;
@@ -365,6 +368,16 @@ li{
 .activite6{
     border-radius: 20px 20px 0px 0px;height: 80%; background-image: url(./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
     background-position: center; background-size: cover;
+}
+.searchBar {
+    margin-left: 0;
+    margin-right: 0;
+    border-left: 0;
+    border-right: 0;
+    border: 2px solid #deebff;
+    
+    width: 240px;
+    font-size: 1em;
 }
 
 @media screen and (max-width: 920px)
