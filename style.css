@@ -3,8 +3,14 @@ body{
     font-family: "Raleway" , serif;
    
     margin: 0px 5px ;
-}
 
+}
+h4{
+    margin :  8px 0px 0px 0px;
+}
+p{
+    margin: 0px;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -100,7 +106,7 @@ input{
 }
 .element-filtre-flew{
     display: flex;
-    width: 210px;    
+    width: 250px;    
     height: 50px;
     align-items: center;
     margin-left: 5%;
@@ -177,9 +183,7 @@ input{
     color: #0065FC;
 }
 .section-Info{
-    display: flex;
-    
-    height: 50px;
+    height: 65px;
 }
 .icon-info{
     border-radius: 50px;
@@ -329,6 +333,7 @@ i{
     padding: 3%;
     margin-bottom: 5%;
     display: flex;
+    font-weight: bold;
 }
 ul{
     list-style: none;
@@ -607,7 +612,7 @@ li{
         border-bottom: 2px #F2F2F2 solid;
     }
     .menuSize{
-        height: 80px;
+        height: 90px;
         width: 140px;
       
     }
