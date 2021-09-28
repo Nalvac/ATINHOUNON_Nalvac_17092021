@@ -606,13 +606,10 @@ li{
         height: content;
        
     }
-    .activite_elmentLarge {
-        width: 100%;
-        margin-bottom: 5%;
-        height: content;
-    }
+    
     .activite_elmentSmall_3{
-        height: 400px; 
+        width: 100%;
+        height: 800px; 
         background-color: #f2f2f2;
          margin-bottom: 5%; border-radius: 20px;
       
