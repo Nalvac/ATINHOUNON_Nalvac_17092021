@@ -609,6 +609,7 @@ li{
     .activite_elmentLarge {
         width: 100%;
         margin-bottom: 5%;
+        height: content;
     }
     .activite_elmentSmall_3{
         height: 400px; 
