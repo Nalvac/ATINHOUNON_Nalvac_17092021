@@ -385,6 +385,7 @@ li{
         width: 90%;
     }
 
+
 }
 
 @media screen and (max-width : 1090px) {
@@ -458,9 +459,7 @@ li{
         width: 250px;
         
 }
-.flexaround{
-    margin-left: 35%;
-}
+
 }
 @media screen and (max-width : 1200px) {
     .Hebergement-Marseil-elmts {
@@ -472,10 +471,10 @@ li{
     border-radius: 20px;
     height: 137px;
 }
+
 .flexaround{
     margin-left: 35%;
 }
-
 
 }
 
@@ -609,7 +608,7 @@ li{
     
     .activite_elmentSmall_3{
         width: 100%;
-        height: 800px; 
+        height: 400px; 
         background-color: #f2f2f2;
          margin-bottom: 5%; border-radius: 20px;
       
