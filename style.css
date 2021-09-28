@@ -12,6 +12,9 @@ body{
     width: 100%;
  
 }
+.p1{
+  margin-left: 5%;
+}
 .centrer{
     display: flex;
     justify-content: center; 
@@ -28,6 +31,9 @@ body{
     height: 99px;
     width: 140px;
   
+}
+.searchText{
+    background-color: #0065FC;
 }
 .liens2{
     color: black;
@@ -136,6 +142,16 @@ input{
     height: 100%;
     ALIGN-ITEMS: center;
     color: #0065FC;
+}
+.fa-search{
+ 
+    color: #ffffff;
+    position: fixed;
+}
+.button-search {
+
+    width: 41px;
+    height: 50px;
 }
 .bordure-filtre:hover {
     background-color: #a4c9ff;
@@ -368,10 +384,18 @@ li{
     }
 
 }
-@media screen and (min-width : 734px){
+@media screen and (min-width : 751px){
     .bordure:hover{
         border-top: 2px solid #0065FC ;
         cursor: pointer;
+    }
+    .fa-search:before {
+        content: "\f002";
+        visibility: hidden;
+    }
+    .button-search {
+        width: 93px;
+        height: 50px;
     }
 }
 @media screen and (min-width : 1090px){
@@ -542,9 +566,21 @@ li{
     .lesPlusCases {
         width: 90%;
     }
+    .search{
+        width: 60%;
+    } 
     
 }
 @media screen and (max-width : 750px) {
+    .searchText{
+
+        visibility: hidden;
+    }
+   
+    .flex-search {
+        display: flex;
+        margin: 3% 0% 3% 0%;
+    }
     .flexaround{
         order: 1;
         width: 100%;
@@ -605,6 +641,7 @@ li{
         height: content;
        
     }
+
     
     .activite_elmentSmall_3{
         width: 100%;
