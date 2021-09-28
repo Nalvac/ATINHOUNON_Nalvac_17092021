@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
  
 }
 .centrer{
@@ -21,6 +22,7 @@ body{
     display: flex;
     justify-content: space-around; 
     align-items: center;
+    margin-left: 66%;
 }
 .menuSize{
     height: 99px;
@@ -39,10 +41,7 @@ a{
     text-decoration: none;
     color: #000000;
 }
-.bordure:hover{
-    border-top: 2px solid #0065FC ;
-    cursor: pointer;
-}
+
 
 .bordure:hover > a{
     color: #0065FC;
@@ -276,6 +275,14 @@ i{
     border-radius: 20px
     
 }
+.review {
+    width: 95%;
+    MARGIN: auto;
+}
+.star2{
+        
+    margin:5%
+    }
 .activite_elmentSmall_1{
     height: 400px; 
     background-color: #f2f2f2;
@@ -317,6 +324,33 @@ li{
 .activiteElement{
     display: flex; margin-bottom: 5%;
 }
+.activite1{
+    height: 90%;
+     background-image: url(./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg); 
+    background-position: center; background-size: cover;
+}
+.activite2{
+    height: 80%; background-image: url(./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg); 
+    background-position: center; background-size: cover;
+}
+.activite3{
+    border-radius: 20px 20px 0px 0px; height: 80%; background-image: url(./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+     background-position: center; background-size: cover;
+
+}
+.activite4{
+    height: 90%; background-image: url(./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg); 
+    background-position: center; background-size: cover;
+}
+.activite5{
+    height: 80%; background-image: url(./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+     background-position: center; background-size: cover;
+}
+.activite6{
+    border-radius: 20px 20px 0px 0px;height: 80%; background-image: url(./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-position: center; background-size: cover;
+}
+
 @media screen and (max-width: 920px)
 {
     .lesPlusCases {
@@ -333,6 +367,12 @@ li{
         width: 382px;
     }
 
+}
+@media screen and (min-width : 734px){
+    .bordure:hover{
+        border-top: 2px solid #0065FC ;
+        cursor: pointer;
+    }
 }
 @media screen and (min-width : 1090px){
     .titre2{
@@ -418,6 +458,9 @@ li{
         width: 250px;
         
 }
+.flexaround{
+    margin-left: 35%;
+}
 }
 @media screen and (max-width : 1200px) {
     .Hebergement-Marseil-elmts {
@@ -428,6 +471,9 @@ li{
 .Hebergement-populair-elmts {
     border-radius: 20px;
     height: 137px;
+}
+.flexaround{
+    margin-left: 35%;
 }
 
 
@@ -462,6 +508,9 @@ li{
         width: 45%;
         max-width: 170px;
     }
+    .star{
+        margin-bottom: 2%;
+    }
 
 
 }
@@ -472,7 +521,8 @@ li{
         
     }
     .Hebergement-Marseil-elmts {
-        width: 75%;
+        width: 80%;
+        height: 381px;
     }
     .elmtsFlex {
         flex-direction: column;
@@ -493,8 +543,43 @@ li{
     .lesPlusCases {
         width: 90%;
     }
+    
 }
 @media screen and (max-width : 750px) {
+    .flexaround{
+        order: 1;
+        width: 100%;
+        margin-left: 0%;
+        border-bottom: 2px #F2F2F2 solid;
+    }
+    .menuSize{
+        height: 80px;
+        width: 140px;
+      
+    }
+    .bordure:hover{
+        border-bottom: 2px solid #0065FC ;
+        cursor: pointer;
+    }
+    .header{
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    h4{
+        margin: 1% 0% 0% 0%;
+    }
+    p{
+        margin: 0%;
+    }
+    .review {
+        width: 95%;
+        MARGIN: auto;
+    }
+    .Hebergement-Marseil-elmts {
+        width: 83%;
+        height: 252px;
+    }
     .footerStyle {
         height: auto;
         background-color: #f2f2f2;
@@ -518,11 +603,41 @@ li{
     }
     .activite_elmentSmall {
         width: 100%;
+        height: content;
        
     }
     .activite_elmentLarge {
         width: 100%;
         margin-bottom: 5%;
+    }
+    .activite_elmentSmall_3{
+        height: 400px; 
+        background-color: #f2f2f2;
+         margin-bottom: 5%; border-radius: 20px;
+      
+    }
+    .activite1 {
+        height: 71%;
+    }
+    .activite2 {
+        height: 69%;
+    }
+    .activite3 {
+        height: 69%;
+    }
+    .activite4 {
+        height: 71%;
+    }
+    .activite5 {
+        height: 69%;
+    }
+    .activite6 {
+        height: 69%;
+    }
+    .activiteElement {
+        display: flex;
+        flex-direction: column;
+        margin: 6%;
     }
 }
 /*
