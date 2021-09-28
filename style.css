@@ -146,7 +146,7 @@ input{
 .fa-search{
  
     color: #ffffff;
-    position: fixed;
+    position :absolute;
 }
 .button-search {
 
@@ -567,7 +567,7 @@ li{
         width: 90%;
     }
     .search{
-        width: 60%;
+        width: 100%;
     } 
     
 }
