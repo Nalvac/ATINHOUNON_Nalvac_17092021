@@ -26,7 +26,7 @@ body{
     display: flex;
     justify-content: space-around; 
     align-items: center;
-    margin-left: 66%;
+    margin-left: 50%;
 }
 .menuSize{
     height: 99px;
@@ -411,8 +411,17 @@ li{
     .Hebergement-Marseil-elmts {
         width: 382px;
     }
+ 
+
 
 }
+@media screen and (max-width: 940px){
+    .flexaround{
+        
+        margin-left: 20%;
+    }
+}
+
 @media screen and (min-width : 751px){
     .bordure:hover{
         border-top: 2px solid #0065FC ;
@@ -440,6 +449,7 @@ li{
     .lesPlusCases {
         width: 90%;
     }
+    
 
 
 }
@@ -528,9 +538,8 @@ li{
     height: 137px;
 }
 
-.flexaround{
-    margin-left: 35%;
 }
+@media screen and (max-width : 1300px) {
 
 }
 
