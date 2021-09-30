@@ -228,6 +228,7 @@ p{
 }
 
 .Hebergement-Marseil-elmts{
+    transition: 1s;
     border-radius: 20px;
     border : 5px white solid;
     width: 275px;
@@ -239,6 +240,10 @@ p{
     
     
 }
+.Hebergement-Marseil-elmts:hover{
+    transform: scale(1.1);
+}
+
 .footerStyle{
     height: 150px; background-color: #f2f2f2;
 }
@@ -271,13 +276,16 @@ p{
 }
 .Hebergement-populair-elmts{
     border-radius: 20px;
- 
+    transition: 1s;
     height: 147px;    
     background-color: #ffffff;
     border : 5px white solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
 
+}
+.Hebergement-populair-elmts:hover{
+    transform: scale(1.08);
 }
 .afficher-plus{
     display: flex;
@@ -295,12 +303,17 @@ i{
     color: #0065FC;
 }
 .activite_elmentLarge{
+    transition: 1s;
     width: 48%; 
     background-color: #f2f2f2;
     overflow: hidden; 
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+.activite_elmentLarge:hover{
+    transform: scale(1.03);
+    
 }
 .activite_elmentSmall{
     width: 48%; overflow: hidden; 
@@ -319,17 +332,25 @@ i{
     margin:5%
     }
 .activite_elmentSmall_1{
+    transition: 1s;
     height: 400px; 
     background-color: #f2f2f2;
      margin-bottom: 5%; border-radius: 20px;
   
     
 }
+.activite_elmentSmall_1:hover{
+    transform: scale(1.02);
+}
 .activite_elmentSmall_2{
+    transition: 1s;
     height: 400px; 
     background-color: #f2f2f2;
     border-radius: 20px;
   
+}
+.activite_elmentSmall_2:hover{
+    transform: scale(1.02);
 }
 .flex50{
     display: flex;width: 50%; 
@@ -525,6 +546,10 @@ li{
         width: 250px;
         
 }
+.Hebergement-populair-elmts {
+    border-radius: 20px;
+    height: 157px;
+}
 
 }
 @media screen and (max-width : 1200px) {
@@ -535,7 +560,11 @@ li{
 }
 .Hebergement-populair-elmts {
     border-radius: 20px;
-    height: 137px;
+    height: 133px;
+}
+.imageSize {
+    width: 50%;
+    max-width: 206px;
 }
 
 }
@@ -545,7 +574,14 @@ li{
 
 @media screen and (max-width: 1050px)
 {   
-    
+    .Hebergement-populair-elmts {
+        border-radius: 20px;
+        height: 157px;
+    }
+    .imageSize {
+        width: 50%;
+        max-width: 206px;
+    }
   
     .elmtsFlex {
         display: flex;
@@ -568,10 +604,7 @@ li{
         width: 100%;
     }
  
-    .imageSize{
-        width: 45%;
-        max-width: 170px;
-    }
+ 
     .star{
         margin-bottom: 2%;
     }
@@ -613,6 +646,7 @@ li{
     
 }
 @media screen and (max-width : 750px) {
+    
     .searchText{
 
         visibility: hidden;
