@@ -45,7 +45,6 @@ body{
 }
 .imageHebergement{
     width: 100%;
-    object-fit: cover;
 }
 .starColor{
     color: #cecece;
