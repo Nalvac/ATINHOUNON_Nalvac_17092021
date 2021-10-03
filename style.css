@@ -398,7 +398,7 @@ i{
 }
 .flex50{
     display: flex;width: 50%; 
-     
+    max-height: 800px; 
     justify-content: space-around;
 }
 
