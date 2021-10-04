@@ -399,6 +399,7 @@ i{
 }
 .flex50{
     display: flex;width: 50%; 
+    height: 530px;
     justify-content: space-around;
 }
 
@@ -575,6 +576,7 @@ li{
     .flex50 {
         display: flex;
          width: 100%;
+         
         max-height: 1080px;
         justify-content: space-around;
         margin-bottom: 4%;
