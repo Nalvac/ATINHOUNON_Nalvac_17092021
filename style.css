@@ -399,6 +399,7 @@ i{
 }
 .flex50{
     display: flex;width: 50%; 
+    height: 511px;
     justify-content: space-around;
 }
 
