@@ -689,7 +689,7 @@ li{
     } 
     
 }
-@media screen and (max-width : 750px) {
+@media all and (max-device-width : 750px) {
     
     .searchText{
 
@@ -797,7 +797,7 @@ li{
         margin: 6%;
     }
     .activite_elmentLarge{
-        height: 100px;
+        height: 400px;
           width: 100%;
           margin-bottom: 5%;
     }
