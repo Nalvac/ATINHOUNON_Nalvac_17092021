@@ -459,7 +459,19 @@ li{
     width: 240px;
     font-size: 1em;
 }
+@media screen and (min-width: 750px){
+    .activite_elmentLarge{
+        height: 530px;
+    }
+    .activite_elmentSmall_1{
+        height: 260px;
+    }
 
+    .activite_elmentSmall_2{
+        height: 260px;
+    }
+    
+}
 @media screen and (max-width: 920px)
 {
     .lesPlusCases {
