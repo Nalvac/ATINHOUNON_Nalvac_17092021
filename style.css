@@ -398,6 +398,7 @@ i{
 }
 .flex50{
     display: flex;width: 50%; 
+    max-height: 1080px; 
     justify-content: space-around;
 }
 
@@ -574,7 +575,7 @@ li{
     .flex50 {
         display: flex;
          width: 100%;
-        max-height: 1080px;
+        max-height: 550px;
         justify-content: space-around;
         margin-bottom: 4%;
     }
@@ -801,11 +802,6 @@ li{
         margin-bottom: 10%;
     }
 }
-@media screen and (min-width : 850px){
-    
-} 
-    
-
 /*
 @media screen and (max-width: 1280px)
 {
