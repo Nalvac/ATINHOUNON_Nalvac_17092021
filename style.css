@@ -773,24 +773,7 @@ li{
          margin-bottom: 5%; border-radius: 20px;
       
     }
-    .activite1 {
-        height: 71%;
-    }
-    .activite2 {
-        height: 69%;
-    }
-    .activite3 {
-        height: 69%;
-    }
-    .activite4 {
-        height: 71%;
-    }
-    .activite5 {
-        height: 69%;
-    }
-    .activite6 {
-        height: 69%;
-    }
+   
     .activiteElement {
         display: flex;
         flex-direction: column;
