@@ -803,17 +803,7 @@ li{
     }
 }
 @media screen and (min-width : 850px){
-    .activite_elmentLarge{
-        
-        height: 530px;
-
-    }
-    .activite_elmentSmall_1{
-        height: 260px;
-    }
-    .activite_elmentSmall_2{
-        height: 260px;
-    }
+    
 } 
     
 
