@@ -796,6 +796,11 @@ li{
         flex-direction: column;
         margin: 6%;
     }
+    .activite_elmentLarge{
+        height: 400px;
+          width: 100%;
+          margin-bottom: 5%;
+    }
 }
 /*
 @media screen and (max-width: 1280px)
