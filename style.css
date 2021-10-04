@@ -349,6 +349,7 @@ i{
 .activite_elmentLarge{
     transition: 1s;
     width: 48%; 
+    height: 800px; 
     background-color: #f2f2f2;
     overflow: hidden; 
     border-radius: 20px;
