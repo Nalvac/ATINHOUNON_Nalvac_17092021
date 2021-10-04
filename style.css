@@ -398,7 +398,6 @@ i{
 }
 .flex50{
     display: flex;width: 50%; 
-    max-height: 500px; 
     justify-content: space-around;
 }
 
@@ -797,6 +796,7 @@ li{
         margin: 6%;
     }
     .activite_elmentLarge{
+        height: 400px;
           width: 100%;
           margin-bottom: 5%;
     }
