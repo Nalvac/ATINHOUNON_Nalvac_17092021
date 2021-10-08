@@ -10,7 +10,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height : 100px;
+
  
 }
 .logoReservia{
@@ -468,12 +468,6 @@ li{
     .activite_elmentSmall_2{
         height: 260px;
     }
-    .header{
-        flex-direction: row;
-        width: 100%;
-        flex-wrap: wrap;
-        margin-bottom: 30%;
-    }
     
 }
 @media screen and (max-width: 920px)
@@ -739,7 +733,6 @@ li{
         flex-direction: row;
         width: 100%;
         flex-wrap: wrap;
-        margin-bottom: 30%;
     }
     h4{
         margin: 1% 0% 0% 0%;
@@ -817,3 +810,46 @@ li{
         margin-bottom: 10%;
     }
 }
+/*
+@media screen and (max-width: 1280px)
+{
+    .Hebergement-Marseil-elmts {
+        margin: 1% 0% 1% 0%;
+    }
+    .star2{
+        
+    margin-top: 23%;
+    }
+}
+@media screen and (max-width: 1022px)
+{   
+    .Hebergement-Marseil-elmts {
+        margin: 1%
+    }
+    .star2{
+        margin-top: 30%;
+    }
+    .lesPlusCases{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width: 1007px)
+{   
+    .Hebergement-Marseil-elmts {
+        margin: 1% 0% 1% 0%;
+    }
+    
+
+}
+@media screen and (max-width: 995px)
+{   
+    .Hebergement-Marseil-elmts {
+        margin: 1%;
+    }
+    .star2{
+        margin-top: 30%;
+    }
+    
+
+}*/
