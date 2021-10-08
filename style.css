@@ -468,6 +468,12 @@ li{
     .activite_elmentSmall_2{
         height: 260px;
     }
+    .header{
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 30%;
+    }
     
 }
 @media screen and (max-width: 920px)
