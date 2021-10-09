@@ -10,7 +10,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-
+    height: 100px;
  
 }
 .logoReservia{
@@ -733,6 +733,7 @@ li{
         flex-direction: row;
         width: 100%;
         flex-wrap: wrap;
+        height: 160px;
     }
     h4{
         margin: 1% 0% 0% 0%;
