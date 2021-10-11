@@ -33,6 +33,7 @@ body{
 
     JUSTIFY-CONTENT: space-between;
 }
+
 .breakWord{
     margin: 5%; word-wrap: break-word;
 }
@@ -71,7 +72,7 @@ body{
     display: flex;
     justify-content: space-around; 
     align-items: center;
-    margin-left: 50%;
+    margin-left: 56%;
 }
 .menuSize{
     height: 99px;
@@ -84,10 +85,12 @@ body{
 .liens2{
     color: black;
 }
-.liens1 {
-    border-top: 2px solid #0065FC;
+
+.liens1>a{
+    
     color: #0065FC;
 }
+
 a{
     list-style: none;
     text-decoration: none;
@@ -291,7 +294,7 @@ p{
 }
 
 .footerStyle{
-    height: 150px; background-color: #f2f2f2;
+    height: 180px; background-color: #f2f2f2;
 }
 .footerFlex{
     display: flex; justify-content :space-around
@@ -411,7 +414,7 @@ ul{
 
 }
 li{
-    margin: 2%;
+    margin: 20px;
 }
 .les-plus-populairesDescription{
     width: 66%;
@@ -469,6 +472,9 @@ li{
     .activite_elmentSmall_2{
         height: 260px;
     }
+    .liens1 {
+        border-top: 2px solid #0065FC;
+    }
     
 }
 @media screen and (max-width: 920px)
@@ -493,7 +499,7 @@ li{
 @media screen and (max-width: 940px){
     .flexaround{
         
-        margin-left: 20%;
+        margin-left: 28%;
     }
 }
 
@@ -721,13 +727,22 @@ li{
         margin-left: 0%;
         border-bottom: 2px #F2F2F2 solid;
     }
+    .lien3{
+        border-bottom: 2px solid #0065FC;
+        width: 50%;
+    }
     .menuSize{
         height: 80px;
         width: 140px;
       
     }
+    .menuSize2 {
+    height: 80px;
+    width: 312px;
+}
     .bordure:hover{
         border-bottom: 2px solid #0065FC ;
+        
         cursor: pointer;
     }
     .header{
