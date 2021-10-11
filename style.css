@@ -5,6 +5,7 @@ body{
     margin: 0px 8px ;
 }
 
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -811,46 +812,3 @@ li{
         margin-bottom: 10%;
     }
 }
-/*
-@media screen and (max-width: 1280px)
-{
-    .Hebergement-Marseil-elmts {
-        margin: 1% 0% 1% 0%;
-    }
-    .star2{
-        
-    margin-top: 23%;
-    }
-}
-@media screen and (max-width: 1022px)
-{   
-    .Hebergement-Marseil-elmts {
-        margin: 1%
-    }
-    .star2{
-        margin-top: 30%;
-    }
-    .lesPlusCases{
-        width: 90%;
-    }
-
-}
-@media screen and (max-width: 1007px)
-{   
-    .Hebergement-Marseil-elmts {
-        margin: 1% 0% 1% 0%;
-    }
-    
-
-}
-@media screen and (max-width: 995px)
-{   
-    .Hebergement-Marseil-elmts {
-        margin: 1%;
-    }
-    .star2{
-        margin-top: 30%;
-    }
-    
-
-}*/
