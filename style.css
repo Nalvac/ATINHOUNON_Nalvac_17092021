@@ -16,6 +16,10 @@ body{
 }
 .logoReservia{
     width: 120px; height: 50px;
+    
+}
+.logoFlex{
+    flex: 1;
 }
 .diplayFlex{
     display: flex;
@@ -35,7 +39,7 @@ body{
 }
 
 .breakWord{
-    margin: 5%; word-wrap: break-word;
+    margin: 5% 5% 0% 5%; word-wrap: break-word;
 }
 .sactionActiviteMargin{
     margin-top: 5%; margin-left: 2%;
@@ -56,7 +60,8 @@ body{
     color: #0065FC;
 }
 .margin5{
-    margin: 5%;
+    margin: 5% 5% 0% 5%;
+    flex: 1;
 }
 .p1{
   margin-left: 5%;
@@ -72,7 +77,6 @@ body{
     display: flex;
     justify-content: space-around; 
     align-items: center;
-    margin-left: 53%;
 }
 .menuSize{
     height: 99px;
@@ -89,6 +93,9 @@ body{
 .liens1>a{
     
     color: #0065FC;
+}
+.star2, .star >i{
+    color: #0065FC ;
 }
 
 a{
@@ -140,10 +147,19 @@ p{
 .iconPopu{
     align-self: center; color: black;
 }
+
+.FiltreTitre{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
 .filtre{
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .bordure-filtre{
     border : 2px #F2F2F2 solid;
@@ -156,15 +172,19 @@ p{
 }
 .element-filtre-flew{
     display: flex;
-    width: 220px;    
+    width: 170px;    
     height: 50px;
-    align-items: center;
-    margin-left: 5%;
+    align-items: center;   
+     margin-right: 3%;
 }
+.element-filtre-flew:nth-child(5){
+    width: 220px;
+}
+
 
 .icon{
     border-radius: 50px;
-    background-color: #a4c9ff;
+    background-color: #DEEBFF;
     width: 50px;
     height: 50px;
 }
@@ -216,7 +236,7 @@ p{
     height: 50px;
 }
 .bordure-filtre:hover {
-    background-color: #a4c9ff;
+    background-color: #DEEBFF;
 }
 .bordure-filtre:hover > i{
     background-color: #ffffff;
@@ -297,7 +317,10 @@ p{
     height: 180px; background-color: #f2f2f2;
 }
 .footerFlex{
-    display: flex; justify-content :space-around
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+       
 }
 .titre{
     display: flex;
@@ -313,7 +336,7 @@ p{
 .titre1{
     display: flex;
     justify-content: flex-start;
-    padding: 2%;
+    padding: 2% 2% 0% 2%;
 }
 
 .lesPlusCases{
@@ -348,14 +371,13 @@ p{
       display: flex;
       overflow: hidden;
 }
-i{
-    color: #0065FC;
-}
+
 .activite_elmentLarge{
     transition: 1s;
     width: 48%; 
-    background-color: #f2f2f2;
+    height: 600px;
     overflow: hidden; 
+    margin-top: 2%;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -365,11 +387,12 @@ i{
     
 }
 .activite_elmentSmall{
-    width: 48%; overflow: hidden; 
-     display: flex; 
-    flex-direction: column; 
-    justify-content: space-between; 
-    border-radius: 20px
+    width: 48%;
+    height: 571px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
 .review {
@@ -382,9 +405,11 @@ i{
     }
 .activite_elmentSmall_1{
     transition: 1s;
-    background-color: #f2f2f2;
      margin-bottom: 5%; border-radius: 20px;
-  
+     width: 90%;
+     margin: auto;
+     margin-bottom: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 .activite_elmentSmall_1:hover{
@@ -392,9 +417,19 @@ i{
 }
 .activite_elmentSmall_2{
     transition: 1s;
-    background-color: #f2f2f2;
     border-radius: 20px;
+    width: 90%;
+    margin: auto;
+    
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
+}
+.activiteHeight1{
+    
+    height: 289px;
+}
+.activiteHeight2{    
+    height: 218px;
 }
 .activite_elmentSmall_2:hover{
     transform: scale(1.02);
@@ -411,16 +446,34 @@ i{
 }
 ul{
     list-style: none;
+    padding: inherit;
 
 }
 li{
     margin: 20px;
 }
 .les-plus-populairesDescription{
-    width: 66%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
 }
 .imageSize{
-    width: 58%;
+    width: 40%; 
+}
+.popu1{
+    
+    background-image: url(./images/hebergements/12.jpg); 
+    background-position: center; background-size: cover;
+}
+.popu2{
+    
+    background-image: url(./images/hebergements/13.jpg); 
+    background-position: center; background-size: cover;
+}
+.popu3{
+    
+    background-image: url(./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg); 
+    background-position: center; background-size: cover;
 }
 .activiteElement{
     display: flex; margin-bottom: 5%;
@@ -431,11 +484,13 @@ li{
     background-position: center; background-size: cover;
 }
 .activite2{
-    height: 80%; background-image: url(./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg); 
+    
+    border-radius: 20px 20px 0px 0px;
+    height: 83%; background-image: url(./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg); 
     background-position: center; background-size: cover;
 }
 .activite3{
-    border-radius: 20px 20px 0px 0px; height: 80%; background-image: url(./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    border-radius: 20px 20px 0px 0px; height: 78%; background-image: url(./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
      background-position: center; background-size: cover;
 
 }
@@ -444,11 +499,13 @@ li{
     background-position: center; background-size: cover;
 }
 .activite5{
-    height: 80%; background-image: url(./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    
+    border-radius: 20px 20px 0px 0px;
+    height: 78%; background-image: url(./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
      background-position: center; background-size: cover;
 }
 .activite6{
-    border-radius: 20px 20px 0px 0px;height: 80%; background-image: url(./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    border-radius: 20px 20px 0px 0px;height: 83%; background-image: url(./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
     background-position: center; background-size: cover;
 }
 .searchBar {
@@ -456,22 +513,17 @@ li{
     margin-right: 0;
     border-left: 0;
     border-right: 0;
-    border: 2px solid #deebff;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
     
     width: 240px;
     font-size: 1em;
 }
 @media screen and (min-width: 750px){
     .activite_elmentLarge{
-        height: 530px;
+      height: auto;
     }
-    .activite_elmentSmall_1{
-        height: 260px;
-    }
-
-    .activite_elmentSmall_2{
-        height: 260px;
-    }
+   
     .liens1 {
         border-top: 2px solid #0065FC;
     }
@@ -549,10 +601,7 @@ li{
     .titreFiltreMobile{
         align-self: flex-start;
     }
-    .mobileflexColumn{
-        flex-direction: column;
-        align-items: flex-start;
-    }
+ 
    
     .section1mobileflexColumn{
         flex-direction: column-reverse;
@@ -560,8 +609,8 @@ li{
     }
     .element-filtre-flew{
         margin-bottom: 20px;
-        margin-left: 2%;
     }
+ 
     .les-plus-populaires{
         width: 100%;
     }
@@ -620,12 +669,12 @@ li{
 }
 .Hebergement-populair-elmts {
     border-radius: 20px;
-    height: 133px;
 }
 .imageSize {
-    width: 50%;
+    width: 40%;
     max-width: 206px;
 }
+
 
 }
 @media screen and (max-width : 1300px) {
@@ -639,7 +688,7 @@ li{
         height: 157px;
     }
     .imageSize {
-        width: 50%;
+        width: 40%;
         max-width: 206px;
     }
   
@@ -703,8 +752,12 @@ li{
     .search{
         width: 210px;
     } 
+    .element-filtre-flew {
+        margin-right: 1%;
+    }
     
 }
+
 @media screen and (max-width : 750px) {
     
     .searchText{
@@ -771,12 +824,12 @@ li{
     }
     .footerFlex {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: column;
     }
     .imageSize{
-        width: 45%;
-        max-width: 170px;
+        width: 40%;
+        max-width: 206px;
     }
     .mobileflexColumn2{
         flex-direction: column;
@@ -800,22 +853,22 @@ li{
       
     }
     .activite1 {
-        height: 294px;
+        height: 170px;
     }
     .activite2 {
-        height: 260px
+        height: 170px
     }
     .activite3 {
-        height: 260px
+        height: 170px
     }
     .activite4 {
-        height: 294px;
+        height: 170px;
     }
     .activite5 {
-        height: 260px
+        height: 170px
     }
     .activite6 {
-        height: 260px
+        height: 170px
     }
     .activiteElement {
         display: flex;
@@ -823,7 +876,29 @@ li{
         margin: 6%;
     }
     .activite_elmentLarge{
+        width: 93%;
+        margin: auto;
+        margin-bottom: 0%;
+        height: auto;
+    }
+    .activiteHeight2{
+        height: auto;
+    }
+    .activiteHeight1{
+        height: auto;
+    }
+    .activite_elmentSmall_1{
+        width: 93%;
+    }
+    .activite_elmentSmall_2{
+        width: 93%;
+    }
+
+}
+@media screen and (max-width: 626px){
+    .FiltreTitre {
+       
         width: 100%;
-        margin-bottom: 10%;
+        
     }
 }
