@@ -452,6 +452,9 @@ ul{
 li{
     margin: 20px;
 }
+li > a:hover{
+    color: #0065FC;
+}
 .les-plus-populairesDescription{
     width: 55%;
     display: flex;
@@ -565,7 +568,7 @@ li{
         visibility: hidden;
     }
     .button-search {
-        width: 93px;
+        width: 125px;
         height: 50px;
     }
 }
@@ -573,7 +576,7 @@ li{
     .titre2{
         display: flex;
         justify-content: flex-start;
-        padding: 2%;
+        padding: 2% 0% 2% 6%;
         margin-bottom: 19%;
     }
     .iconPopu{
