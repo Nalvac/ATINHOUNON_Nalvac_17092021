@@ -375,7 +375,7 @@ p{
 .activite_elmentLarge{
     transition: 1s;
     width: 48%; 
-    height: 600px;
+    height: 545px;
     overflow: hidden; 
     margin-top: 2%;
     border-radius: 20px;
@@ -521,7 +521,7 @@ li{
 }
 @media screen and (min-width: 750px){
     .activite_elmentLarge{
-      height: auto;
+      height: 545px;
     }
    
     .liens1 {
@@ -691,6 +691,9 @@ li{
         width: 40%;
         max-width: 206px;
     }
+    .review{
+        margin-top: 5%;
+    }
   
     .elmtsFlex {
         display: flex;
@@ -816,7 +819,7 @@ li{
     }
     .Hebergement-Marseil-elmts {
         width: 83%;
-        height: 252px;
+        height: 210px;
     }
     .footerStyle {
         height: auto;
@@ -876,7 +879,7 @@ li{
         margin: 6%;
     }
     .activite_elmentLarge{
-        width: 93%;
+        width: 95%;
         margin: auto;
         margin-bottom: 0%;
         height: auto;
@@ -888,10 +891,10 @@ li{
         height: auto;
     }
     .activite_elmentSmall_1{
-        width: 93%;
+        width: 95%;
     }
     .activite_elmentSmall_2{
-        width: 93%;
+        width: 95%;
     }
 
 }
