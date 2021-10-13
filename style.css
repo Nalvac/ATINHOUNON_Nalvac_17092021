@@ -356,7 +356,7 @@ p{
 .Hebergement-populair-elmts{
     border-radius: 20px;
     transition: 1s;
-    height: 147px;    
+    height: 157px;    
     background-color: #fffffe;
     border : 5px white solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -691,7 +691,7 @@ li > a:hover{
 }
 .Hebergement-populair-elmts {
     border-radius: 20px;
-    height: 157px;
+    
 }
 
 }
