@@ -39,6 +39,7 @@ body{
 .heightCaseHebergement{
     height: 70%;  
     overflow: hidden;
+    
 }
 .widthElementPopU{
     display: flex; width: 94%;
@@ -519,6 +520,28 @@ li > a:hover{
 .activite6{
     border-radius: 20px 20px 0px 0px;height: 83%; background-image: url(./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
     background-position: center; background-size: cover;
+}
+.HebergementImage1{
+    background-image: url(./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg); background-position: center; background-size: cover;
+}
+.HebergementImage2{
+    background-image: url(./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg); background-position: center; background-size: cover;
+}
+.HebergementImage3{
+    background-image: url(./images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg); background-position: center; background-size: cover;
+    
+}
+.HebergementImage4{
+    background-image: url(./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg); background-position: center; background-size: cover;
+    
+}
+.HebergementImage5{
+    background-image: url(./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg); background-position: center; background-size: cover;
+    
+}
+.HebergementImage6{
+    background-image: url(./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg); background-position: center; background-size: cover;
+    
 }
 .searchBar {
     margin-left: 0;
