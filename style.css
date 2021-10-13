@@ -22,8 +22,6 @@ body{
     position: absolute !important;
     height: 1px; width: 1px; 
     overflow: hidden;
-    clip-path: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip-path: rect(1px, 1px, 1px, 1px);
 }
 .logoFlex{
     flex: 1;
