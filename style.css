@@ -2,7 +2,7 @@
 body{
     font-family: "Raleway" , serif;
    
-    margin: 0px 8px ;
+    margin: 0px 20px ;
 
 }
 
@@ -36,7 +36,6 @@ body{
     margin-right: 1% ;
 }
 .heightCaseHebergement{
-    height: 70%;  
     overflow: hidden;
     
 }
@@ -73,6 +72,7 @@ body{
 }
 .p1{
   margin-left: 5%;
+  font-weight: bold;
 }
 .centrer{
     display: flex;
@@ -152,16 +152,14 @@ h4{
 p{
     margin: 0%;
 }
+h2 + p{
+    margin-bottom: 2%;
+}
 .iconPopu{
     align-self: center; color: black;
 }
 
-.FiltreTitre{
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-}
+
 .filtre{
     display: flex;
     flex-direction: row;
@@ -178,6 +176,9 @@ p{
     
     margin-top: 2%;
 }
+.FiltreTitre{
+    margin-right: 1%;
+}
 .element-filtre-flew{
     display: flex;
     width: 170px;    
@@ -188,7 +189,16 @@ p{
 .element-filtre-flew:nth-child(5){
     width: 220px;
 }
-
+.imageHebergement{
+     
+        height: 10rem;
+        object-fit: cover;
+        max-width: 100%;
+        width: 100%;
+        max-height: 100%;
+        border-radius: 1rem 1rem 0 0;
+    
+}
 
 .icon{
     border-radius: 50px;
@@ -268,14 +278,15 @@ p{
 .icon-info{
     border-radius: 50px;
     background-color: transparent;
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
     border : 2px #F2F2F2 solid;
     word-wrap: break-word;
 }
 .centre-info{
     display: flex;
-    align-items: center; 
+    align-items: center;
+    padding: 1rem 0rem;
 }
 .Hebergement{   
     border-radius: 20px 20px 20px 20px;
@@ -307,7 +318,7 @@ p{
 .Hebergement-Marseil-elmts{
     transition: 1s;
     border-radius: 20px;
-    border : 5px white solid;
+    border : 3px white solid;
     width: 275px;
     margin-top: 10%;
     height: auto;
@@ -357,9 +368,9 @@ p{
 .Hebergement-populair-elmts{
     border-radius: 20px;
     transition: 1s;
-    height: 157px;    
+    height: 140px;    
     background-color: #fffffe;
-    border : 5px white solid;
+    border : 3px white solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
 
@@ -434,11 +445,11 @@ p{
 }
 .activiteHeight1{
     
-    height: 289px;
+    height: 292px;
     
 }
 .activiteHeight2{    
-    height: 218px;
+    height: 230px;
 }
 .activite_elmentSmall_2:hover{
     transform: scale(1.02);
@@ -450,7 +461,7 @@ p{
 
 .sous-titre{
     margin: auto;
-    padding: 3%;
+    padding: 4% 3%;
     display: flex;
 }
 ul{
@@ -617,6 +628,19 @@ li > a:hover{
     .lesPlusCases {
         width: 90%;
     }
+    .imageHebergement{
+     
+        height: 8rem;
+        object-fit: cover;
+        max-width: 100%;
+        width: 100%;
+        max-height: 100%;
+        border-radius: 1rem 1rem 0 0;
+    
+    }
+    .review{
+        padding:2% 1%;
+    }
     
 
 
@@ -686,7 +710,7 @@ li > a:hover{
 @media screen and (max-width: 1270px){
     .Hebergement-Marseil-elmts {
         border-radius: 20px;
-        border: 5px white solid;
+        border: 3px white solid;
         width: 250px;
         
 }
@@ -699,7 +723,7 @@ li > a:hover{
 @media screen and (max-width : 1200px) {
     .Hebergement-Marseil-elmts {
         border-radius: 20px;
-        border: 5px white solid;
+        border:3px white solid;
         width: 230px;
 }
 .Hebergement-populair-elmts {
@@ -711,10 +735,15 @@ li > a:hover{
 }
 
 
-}
-@media screen and (max-width : 1300px) {
 
 }
+@media screen and (max-width : 1087px ) {
+    .FiltreTitre{
+        margin-right: 3%;
+        margin-bottom: 3%;
+    }
+}
+
 
 @media screen and (max-width: 1050px)
 {   
@@ -726,9 +755,7 @@ li > a:hover{
         width: 40%;
         max-width: 206px;
     }
-    .review{
-        margin-top: 5%;
-    }
+
   
     .elmtsFlex {
         display: flex;
@@ -770,6 +797,7 @@ li > a:hover{
     
 }
 
+
 @media screen and (max-width: 820px){
     .elmtsFlex {
         flex-direction: column;
@@ -777,7 +805,6 @@ li > a:hover{
     }
     .Hebergement-Marseil-elmts {
         width: 80%;
-        height: 381px;
     }
     .elmtsFlex {
         flex-direction: column;
@@ -821,7 +848,7 @@ li > a:hover{
    
     .flex-search {
         display: flex;
-        margin: 3% 0% 3% 0%;
+        margin: 5% 0% 0% 0%;
     }
     .flexaround{
         order: 1;
@@ -864,8 +891,8 @@ li > a:hover{
         MARGIN: auto;
     }
     .Hebergement-Marseil-elmts {
-        width: 83%;
-        height: 210px;
+        width: 95%;
+        height: 244px;
     }
     .footerStyle {
         height: auto;
@@ -890,7 +917,6 @@ li > a:hover{
     }
     .activite_elmentSmall {
         width: 100%;
-        height: 497px;
        
     }
 
@@ -923,7 +949,7 @@ li > a:hover{
     .activiteElement {
         display: flex;
         flex-direction: column;
-        margin: 6%;
+        margin: 6% 0%;
     }
     .activite_elmentLarge{
         width: 95%;
@@ -949,6 +975,6 @@ li > a:hover{
     .FiltreTitre {
        
         width: 100%;
-        
+        margin-bottom: 0%;
     }
 }
