@@ -49,7 +49,7 @@ body{
     margin: 5% 5% 0% 5%; word-wrap: break-word;
 }
 .sactionActiviteMargin{
-    margin-top: 5%; margin-left: 2%;
+    margin-top: 5%; margin-left: 1%;
      margin-bottom: 1%;
 }
 .imagePopulaire{
@@ -191,6 +191,9 @@ h2 + p{
     align-items: center;   
      margin-right: 3%;
      cursor: pointer;
+}
+.p2{
+    padding: 2% 0%;
 }
 .element-filtre-flew:nth-child(5){
     width: 220px;
@@ -423,6 +426,8 @@ h2 + p{
 .review {
     width: 95%;
     MARGIN: auto;
+    
+    margin-bottom: 1%;
 }
 .star2{
         
