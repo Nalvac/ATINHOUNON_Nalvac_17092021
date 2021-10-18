@@ -3,6 +3,7 @@ body{
     font-family: "Raleway" , serif;
    
     margin: 0px 8px ;
+
 }
 
 
@@ -756,6 +757,17 @@ li > a:hover{
     }
 
 
+}
+
+@media screen and (min-width :1439px) {
+
+    body{
+       
+        margin: auto ;
+    
+        max-width: 1440px;
+    }
+    
 }
 
 @media screen and (max-width: 820px){
