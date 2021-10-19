@@ -665,14 +665,15 @@ li > a:hover{
     .les-plus-populairesDescription {
         width: 53% !important;
     }
+
+
     .imageSize{
         width: 20%;
     }
     .titreFiltreMobile{
         align-self: flex-start;
     }
- 
-   
+       
     .section1mobileflexColumn{
         flex-direction: column-reverse;
         align-items: flex-start;
@@ -729,6 +730,13 @@ li > a:hover{
     border-radius: 20px;
     
 }
+.titre2{
+    font-size: 18px;
+}
+.titre1{
+    font-size: 12.5px;
+    margin-bottom: -1%
+}
 
 }
 @media screen and (max-width : 1200px) {
@@ -761,6 +769,9 @@ li > a:hover{
     .Hebergement-populair-elmts {
         border-radius: 20px;
         height: 157px;
+    }
+    .titre1 {
+        margin-bottom: -7%;
     }
     .imageSize {
         width: 40%;
@@ -857,6 +868,7 @@ li > a:hover{
         background-color :#ffffff;
         
     }
+   
    
     .flex-search {
         display: flex;
