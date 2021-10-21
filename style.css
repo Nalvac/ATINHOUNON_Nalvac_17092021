@@ -1,11 +1,12 @@
 
 body{
     font-family: "Raleway" , serif;
-   
-    margin: 0px 20px ;
-
+    margin: 0%;
 }
 
+.container{
+    margin: 0px  20px;
+}
 
 .header{
     display: flex;
@@ -30,6 +31,9 @@ body{
 .diplayFlex{
     display: flex;
  
+}
+.starColor{
+    color: #cecece !important ;
 }
 
 .Plusde500logements{
@@ -60,8 +64,8 @@ body{
 .imageHebergement{
     width: 100%;
 }
-.starColor{
-    color: #cecece;
+.a{
+    color: #cecece !important;
 }
 .TextBleu{
     color: #0065FC;
@@ -413,10 +417,11 @@ h2 + p{
 }
 .activite_elmentLarge:hover{
     transform: scale(1.03);
-    
+    cursor: pointer;
 }
 .activite_elmentSmall{
     width: 48%;
+    cursor: pointer;
     height: 571px;
     overflow: hidden;
     display: flex;
@@ -800,6 +805,7 @@ li > a:hover{
         width: 100%;
 
     }
+ 
     .Hebergement-Marseil-elmts {
         width: 46%;
     }
@@ -866,6 +872,11 @@ li > a:hover{
     }
     
 }
+@media screen and (min-width : 751px) {
+    #hebergement{
+        margin: 0px  20px;
+    }
+}
 
 @media screen and (max-width : 750px) {
     
@@ -878,6 +889,13 @@ li > a:hover{
         background-color :#ffffff;
         
     }
+    #hebergement{
+        margin: 0px ;
+    }
+    body{
+        margin: 0%;
+    }
+
    
    
     .flex-search {
@@ -925,7 +943,7 @@ li > a:hover{
         MARGIN: auto;
     }
     .Hebergement-Marseil-elmts {
-        width: 95%;
+        width: 90%;
     }
     .footerStyle {
         height: auto;
@@ -1001,6 +1019,9 @@ li > a:hover{
     }
     .activite_elmentSmall_2{
         width: 95%;
+    }
+    .les-plus-populaires{
+        border-radius: 0%;
     }
 
 }
