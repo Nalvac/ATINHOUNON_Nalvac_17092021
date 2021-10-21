@@ -186,7 +186,7 @@ h2 + p{
 }
 .element-filtre-flew{
     display: flex;
-    width: 170px;    
+    width: 160px;    
     height: 50px;
     align-items: center;   
      margin-right: 3%;
@@ -364,7 +364,7 @@ h2 + p{
 .titre1{
     display: flex;
     justify-content: flex-start;
-    padding: 2% 2% 0% 2%;
+    padding: 1% 2% 0% 2%;
 }
 
 .lesPlusCases{
@@ -384,6 +384,7 @@ h2 + p{
     margin-bottom: 25px;
 
 }
+
 .Hebergement-populair-elmts:hover{
     transform: scale(1.08);
 }
@@ -494,6 +495,7 @@ li > a:hover{
 .imageSize{
     width: 40%; 
 }
+
 .popu1{
     
     background-image: url(./images/hebergements/12.jpg); 
@@ -631,7 +633,7 @@ li > a:hover{
         display: flex;
         justify-content: flex-start;
         padding: 2% 0% 2% 6%;
-        margin-bottom: 18%;
+        margin-bottom: 13%;
     }
     .iconPopu{
         margin-bottom: 10%;
@@ -651,16 +653,14 @@ li > a:hover{
     }
     .review{
         padding:2% 1%;
-    }.sactionActiviteMargin {
-
-        font-size: 26px;
     }
-        
+           
 
 
 }
 
 @media screen and (max-width : 1090px) {
+
     .lesPlusCases {
 
         width: 70%;
@@ -730,10 +730,7 @@ li > a:hover{
         width: 250px;
         
 }
-.sactionActiviteMargin {
-   
-    font-size: 18px;
-}
+
 
 .Hebergement-populair-elmts {
     border-radius: 20px;
@@ -745,6 +742,9 @@ li > a:hover{
 .titre1{
     font-size: 12.5px;
     margin-bottom: -1%
+}
+.sactionActiviteMargin{
+    font-size: 18px;
 }
 
 
@@ -779,7 +779,6 @@ li > a:hover{
 {   
     .Hebergement-populair-elmts {
         border-radius: 20px;
-        height: 157px;
     }
     .titre1 {
         margin-bottom: -7%;
