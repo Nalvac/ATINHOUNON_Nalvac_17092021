@@ -750,6 +750,7 @@ li > a:hover{
 }
 .sactionActiviteMargin{
     font-size: 18px;
+    margin-left: 3px;
 }
 
 
@@ -876,6 +877,9 @@ li > a:hover{
     #hebergement{
         margin: 0px  20px;
     }
+    #activite{
+        margin: 0px  20px;
+    }
 }
 
 @media screen and (max-width : 750px) {
@@ -890,6 +894,9 @@ li > a:hover{
         
     }
     #hebergement{
+        margin: 0px ;
+    }
+    #activite{
         margin: 0px ;
     }
     body{
