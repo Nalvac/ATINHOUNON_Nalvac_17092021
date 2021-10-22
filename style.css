@@ -974,7 +974,8 @@ li > a:hover{
         flex-direction: column;
     }
     .activite_elmentSmall {
-        width: 100%;
+        width: 98%;
+        margin: auto;
        
     }
 
@@ -1010,7 +1011,7 @@ li > a:hover{
         margin: 6% 0%;
     }
     .activite_elmentLarge{
-        width: 95%;
+        width: 93%;
         margin: auto;
         margin-bottom: 3%;
         height: auto;
